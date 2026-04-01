@@ -1,0 +1,82 @@
+# --- [PyCharm / JetBrains] ---
+.idea/*xml
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- [FastAPI / Python] ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# 虚拟环境 (重要)
+venv/
+.venv/
+env/
+ENV/
+python_env/
+
+# 环境配置文件 (敏感信息)
+.env
+.env.local
+.env.development
+.env.production
+
+# --- [Vue.js / Node.js] ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 编辑器配置/缓存
+.vscode/
+.eslintcache
+.stylelintcache
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- [操作系统] ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
